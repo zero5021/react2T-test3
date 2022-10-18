@@ -1,0 +1,10 @@
+.modal-dialog{
+  display: flex;
+  justify-content: center;
+}
+
+.modal-content{
+  width: 60%;
+  background-color: rgb(181, 199, 203);
+
+}

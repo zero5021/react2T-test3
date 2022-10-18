@@ -1,0 +1,19 @@
+ul {
+  list-style: none; 
+  padding: 0; 
+  margin-left: 10px; 
+  }
+  
+  li::before { 
+  content: "\1F355"; 
+  padding-right: 8px; 
+  
+  }
+
+  .container-button-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    
+  }

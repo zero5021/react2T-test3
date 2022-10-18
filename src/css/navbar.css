@@ -1,0 +1,21 @@
+.navbar-main{
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top:0;
+}
+
+.not-active, .active:hover{
+  color: white;
+}
+.active,.not-active:hover{
+  color:rgb(206, 128, 10)
+}
+
+.active h5::before{
+  content: '🍕Pizzería Mamma Mia';
+}
+
+.not-active h5::before{
+  content: '<< Pizzería Mamma Mia';
+}
